@@ -2,6 +2,9 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+body{
+    background-color: rgb(251, 245, 243);
+}
 section{
     margin-bottom: 130px;
 }
@@ -68,6 +71,21 @@ h4{
 .plan-element{
     text-align: center;
 }
+.how{
+    display: flex;
+    gap: 30px;
+}
+.how-description{
+    height: 300px;
+    width: 500px;
+}
+.how-head{
+    text-align: center;
+    padding-bottom: 50px;
+}
+h2{
+    font-size: 30px;
+}
 .call-btn{
     font-size: 20px;
     margin-top: 30px;
@@ -112,13 +130,14 @@ footer{
     font-size: 15px;
     
 }
-.input{
-    width: 50px;
-    height: 60px;
-}
-.email{
-    padding-top: 30px;
-}
 .social{
     padding: 0 20px;
+}
+.email{
+    padding-top: 20px;
+}
+input{
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
 }
