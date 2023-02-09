@@ -2,3 +2,123 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+section{
+    margin-bottom: 130px;
+}
+.banner{
+    background-image: url(../images/banner/banner1.png);
+    height: 808px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    width:100%;        
+    display: inline-block
+}
+
+.welcome{
+    text-align: right;
+    font-size: 35px;
+    padding: 225px 100px 216px 645px;
+}
+.banner-btn{
+    font-size: 20px;
+    margin-top: 100px;
+    height: 60px;
+    width: 180px;
+    color: white;
+    background-color: rgb(233, 69, 4);
+    border: none;
+    border-radius: 5px;
+}
+main{
+    margin: 0 150px;
+}
+.failure{
+    display: flex;
+    gap: 20px;
+}
+.failure-description{
+    padding: 250px 0 0 50px;
+}
+p{
+    margin: 20px 0;
+    color: #7f7e7e;
+    font-size: 15px;
+}
+li{
+  list-style: none;
+  color: #7f7e7e;
+  font-size: 15px;
+}
+.done{
+    height: 15px;
+    width: 20px;
+    color: #16D887;
+}
+.plan{
+    text-align: center;
+    margin-bottom: 50px;
+}
+h4{
+    color: #7f7e7e; 
+}
+.plan-elements{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-element{
+    text-align: center;
+}
+.call-btn{
+    font-size: 20px;
+    margin-top: 30px;
+    height: 60px;
+    width: 180px;
+    color: rgb(233, 69, 4);
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+#call-area{
+    background-image: linear-gradient(to right, rgba(247, 89, 27, 0.911), rgba(243, 237, 237, 0.129)), url(../images/watch.png);
+    width: 1060px;
+    height: 250px;
+    border-radius: 10px;
+}
+.mindset{
+    color: white;
+}
+.mindset-area{
+    padding: 50px;
+}
+/* footer */
+footer{
+    width: 1600px;
+    height: 580px;
+    display: flex;
+    background-color: black;
+}
+.footer-left{
+    height: 315px;
+    width: 485px;
+    padding: 160px;
+}
+.footer-right{
+    padding: 160px;
+}
+.footer-text{
+    color: white;
+}
+.para{
+    font-size: 15px;
+    
+}
+.input{
+    width: 50px;
+    height: 60px;
+}
+.email{
+    padding-top: 30px;
+}
+.social{
+    padding: 0 20px;
+}
